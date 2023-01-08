@@ -8,7 +8,7 @@ const ButtonA = () => {
   return (
     <button
       className={
-        "bg-blue-500 rounded px-4 py-2 transition duration-250 transform " +
+        "bg-blue-500 rounded-full w-32 h-8 transition duration-250 transform " +
         (clicked ? "scale-50" : "")
       }
       onClick={() => setClicked(!clicked)}

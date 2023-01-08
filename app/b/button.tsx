@@ -3,7 +3,7 @@
 const ButtonB = () => {
   return (
     <button
-      className="bg-red-500 rounded px-4 py-2 transition duration-250 transform"
+      className="bg-red-500 rounded-full w-32 h-8 transition duration-250 transform"
       onClick={(e) => {
         let button = e.target as HTMLButtonElement;
 
