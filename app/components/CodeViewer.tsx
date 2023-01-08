@@ -10,7 +10,7 @@ const CodeViewer = ({ code }: { code: string }) => {
       style={atomDark}
       customStyle={{
         borderRadius: "0.75rem",
-        margin: "0 4rem",
+        margin: "0 1rem",
       }}
     >
       {code}

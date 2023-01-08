@@ -13,7 +13,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="mx-auto w-full sm:w-[48rem] text-zinc-800">
+      <body className="mx-auto px-4 py-2 w-full sm:w-[48rem] text-zinc-800">
         <main>
           <h1 className="text-center font-bold text-xl mb-2">
             Animating buttons onClick with Tailwind CSS
