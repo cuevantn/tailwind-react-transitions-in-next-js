@@ -21,6 +21,7 @@ const Navbar = () => {
       <div className="flex space-x-8">
         <NavLink href="/a">Button A</NavLink>
         <NavLink href="/b">Button B</NavLink>
+        <NavLink href="/follow">Follow Button</NavLink>
       </div>
     </nav>
   );

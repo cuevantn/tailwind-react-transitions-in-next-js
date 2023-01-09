@@ -11,8 +11,8 @@ const ButtonA = () => {
   return (
     <button
       className={
-        "bg-blue-500 rounded-full w-32 h-8 transition duration-250 transform " +
-        (clicked ? "scale-50" : "")
+        "bg-blue-800 rounded-full w-32 h-8 transition text-white font-bold duration-250 transform " +
+        (clicked ? "origin-bottom -rotate-12" : "")
       }
       onClick={() => setClicked(!clicked)}
     >
